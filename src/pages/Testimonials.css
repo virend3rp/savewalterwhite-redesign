@@ -1,0 +1,50 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonials-container {
+  padding: 2rem;
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.testimonial-heading {
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00ff99;
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.testimonial-card {
+  background: #111;
+  border: 1px solid #00ff99;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px transparent;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 0 20px #00ff99;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 2px solid #00ff99;
+  object-fit: cover;
+}
